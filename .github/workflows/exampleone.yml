@@ -1,0 +1,15 @@
+name: example one
+
+on:
+  push:
+    branches:[develop]
+
+
+jobs:
+  run-jobs:
+    name: Exampe One
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: step one
+        run: echo "hello!""

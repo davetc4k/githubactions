@@ -26,3 +26,5 @@ jobs:
           echo "world"
           echo "show github context" 
           echo "${{toJSON(github)}}"
+  reusable-job:
+    uses: ./.github/workflows/resue.yaml

@@ -1,0 +1,8 @@
+name: Reuse
+on: workflow_call
+jobs:
+  reusable-job:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: resuable
+        run: echo "Im resued"

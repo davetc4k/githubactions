@@ -7,10 +7,19 @@ on:
 
 
 jobs:
-  run-jobs:
+  run-job-one:
     name: Exampe One
     runs-on: ubuntu-latest
 
     steps:
       - name: step one
         run: echo "hello!"
+  run-job-two:
+    needs: run-job-one
+    name: Example two
+    runs-on: ubuntu-latest
+    
+
+    steps:
+      - name: step two
+        run: ech "world"

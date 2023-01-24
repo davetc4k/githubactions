@@ -24,4 +24,5 @@ jobs:
       - name: step two
         run: |
           echo "world"
-          echo "show github context" {{github}}
+          echo "show github context" 
+          echo {{github}}

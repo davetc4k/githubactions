@@ -27,4 +27,4 @@ jobs:
           echo "show github context" 
           echo "${{toJSON(github)}}"
   reusable-job:
-    uses: ./.github/workflows/resuse.yaml
+    uses: ./.github/workflows/reuse.yaml

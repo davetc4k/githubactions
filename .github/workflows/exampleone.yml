@@ -25,4 +25,4 @@ jobs:
         run: |
           echo "world"
           echo "show github context" 
-          echo "{{toJSON(github)}}"
+          echo "${{toJSON(github)}}"

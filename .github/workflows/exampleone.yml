@@ -8,7 +8,7 @@ on:
 
 jobs:
   run-job-one:
-    name: Exampe One
+    name: Example One
     runs-on: ubuntu-latest
 
     steps:
@@ -25,4 +25,4 @@ jobs:
         run: |
           echo "world"
           echo "show github context" 
-          echo {{github}}
+          echo "{{toJSON(github)}}""

@@ -13,4 +13,4 @@ jobs:
 
     steps:
       - name: step one
-        run: echo "hello!""
+        run: echo "hello!"

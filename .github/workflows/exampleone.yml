@@ -22,4 +22,4 @@ jobs:
 
     steps:
       - name: step two
-        run: ech "world"
+        run: echo "world"
